@@ -25,7 +25,7 @@ _Add an Express route similar to this :_
 /bots/:optional?*
 ```
 
-_Express endpoint for serving bots_  
+_ which points to the Express endpoint for serving bots_  
 ```javascript
 var exec = require('child_process').exec;
 
