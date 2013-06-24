@@ -22,7 +22,7 @@ if ($args ~ "_escaped_fragment_=(.+)") {
 }
 ```
 
-_Add an Express route similar to this :
+_Add an Express route similar to this :_
 ```
 /bots/:optional?*
 ```
