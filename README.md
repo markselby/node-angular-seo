@@ -5,11 +5,9 @@ Install [phantomjs](http://phantomjs.org/)
 
 ## Documentation
 
-_Add an Express route similar to this :
-```_Using phantomjs v1.6.0_
- this script : _phantomjs show-rendered.js 'http://writebox.co.uk/#!/kanban'_
+_phantomjs show-rendered.js 'http://writebox.co.uk/#!/kanban'_  
 
-and see the fully rendered html.
+will show the fully rendered html.
 
 This can be added as child process that is run on your Node.js server and used as output for the crawlers.
 
@@ -22,7 +20,7 @@ if ($args ~ "_escaped_fragment_=(.+)") {
 }
 ```
 
-_Add an Express route similar to this :_
+_Add an Express route similar to this :_  
 ```
 /bots/:optional?*
 ```
